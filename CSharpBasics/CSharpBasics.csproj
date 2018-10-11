@@ -43,7 +43,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleApp9\Program.cs" />
+    <Compile Include="ConsoleApp13\Program.cs" />
     <Compile Include="ConsoleApp2\Program.cs" />
+    <Compile Include="ConsoleApp8\clsAbsClients.cs" />
+    <Compile Include="ConsoleApp8\clsAddresses.cs" />
+    <Compile Include="ConsoleApp8\clsBaseClients.cs" />
+    <Compile Include="ConsoleApp8\clsClientsWithContact.cs" />
+    <Compile Include="ConsoleApp8\clsFiles.cs" />
+    <Compile Include="ConsoleApp8\clsImpression.cs" />
+    <Compile Include="ConsoleApp8\intExits.cs" />
+    <Compile Include="ConsoleApp8\Program.cs" />
+    <Compile Include="ConsoleApp7\clsAbsClients.cs" />
+    <Compile Include="ConsoleApp7\clsAddresses.cs" />
+    <Compile Include="ConsoleApp7\clsBaseClients.cs" />
+    <Compile Include="ConsoleApp7\clsClientsWithContact.cs" />
+    <Compile Include="ConsoleApp7\clsFiles.cs" />
+    <Compile Include="ConsoleApp7\clsImpression.cs" />
+    <Compile Include="ConsoleApp7\intExits.cs" />
+    <Compile Include="ConsoleApp7\Program.cs" />
+    <Compile Include="ConsoleApp6\ClsClients.cs" />
+    <Compile Include="ConsoleApp6\ClsSalesClients.cs" />
+    <Compile Include="ConsoleApp6\Program.cs" />
+    <Compile Include="ConsoleApp10\clsMatrices.cs" />
+    <Compile Include="ConsoleApp10\Program.cs" />
     <Compile Include="ConsoleApp3\Program.cs" />
     <Compile Include="ConsoleApp4\ClsEmployees.cs" />
     <Compile Include="ConsoleApp4\Program.cs" />
@@ -51,9 +74,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Videotutorial.cs" />
     <Compile Include="Videotutorial1\Videotutorial1.cs" />
+    <Compile Include="ConsoleApp11\clsShowArrayList.cs" />
+    <Compile Include="ConsoleApp11\clsShowHashTable.cs" />
+    <Compile Include="ConsoleApp11\Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
