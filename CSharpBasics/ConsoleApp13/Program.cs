@@ -10,6 +10,10 @@ namespace CSharpBasics.ConsoleApp13
     {
         public static void Main()
         {
+
+            ConsoleApp13.ConsoleApp13 v13 = new ConsoleApp13.ConsoleApp13();
+            v13.Execute();
+
             Customr customer1 = new Customr()
             {
                 ID = 101,

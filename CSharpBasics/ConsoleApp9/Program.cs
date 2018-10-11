@@ -10,6 +10,10 @@ namespace CSharpBasics.ConsoleApp9
     {
         static void Main(string[] args)
         {
+
+            ConsoleApp9.ConsoleApp9 v9 = new ConsoleApp9.ConsoleApp9();
+            v9.Execute();
+
             int[] Array = new int[12];
             int i;
             string Chain;

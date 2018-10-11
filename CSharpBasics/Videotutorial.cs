@@ -30,4 +30,34 @@ namespace CSharpBasics
     {
         T Execute();
     }
+
+    public interface ConsoleApp7<T>
+    {
+        T Execute();
+    }
+
+    public interface ConsoleApp8<T>
+    {
+        T Execute();
+    }
+
+    public interface ConsoleApp9<T>
+    {
+        T Execute();
+    }
+
+    public interface ConsoleApp10<T>
+    {
+        T Execute();
+    }
+
+    public interface ConsoleApp11<T>
+    {
+        T Execute();
+    }
+
+    public interface ConsoleApp13<T>
+    {
+        T Execute();
+    }
 }

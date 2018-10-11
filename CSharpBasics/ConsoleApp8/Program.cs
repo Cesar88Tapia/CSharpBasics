@@ -10,6 +10,10 @@ namespace CSharpBasics.ConsoleApp8
     {
         static void Main(string[] args)
         {
+
+            ConsoleApp8.ConsoleApp8 v8 = new ConsoleApp8.ConsoleApp8();
+            v8.Execute();
+
             clsClientsWithContact client = new clsClientsWithContact(0, "Cesar Tapia",
                                                             "0012",
                                                             "TAMC880934",

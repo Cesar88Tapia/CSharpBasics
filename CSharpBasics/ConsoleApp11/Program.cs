@@ -10,6 +10,10 @@ namespace CSharpBasics.ConsoleApp11
     {
         static void Main(string[] args)
         {
+
+            ConsoleApp11.ConsoleApp11 v11 = new ConsoleApp11.ConsoleApp11();
+            v11.Execute();
+
             clsShowArrayList Show = new clsShowArrayList();
             Show.CaptureData();
             Show.PrintData();

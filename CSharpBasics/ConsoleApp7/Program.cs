@@ -10,6 +10,10 @@ namespace CSharpBasics.ConsoleApp7
     {
         static void Main(string[] args)
         {
+
+            ConsoleApp7.ConsoleApp7 v7 = new ConsoleApp7.ConsoleApp7();
+            v7.Execute();
+
             clsClientsWithContact client = new clsClientsWithContact(0, "Cesar Tapia", 
                                                         "0012", 
                                                         "TAMC880934", 
