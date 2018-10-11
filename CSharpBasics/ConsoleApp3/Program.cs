@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace CSharpBasics.ConsoleApp3
 {
-    class Program
+    public class ConsoleApp3 : Project3<int, string>
     {
         static void Main(string[] args)
         {
+
+            ConsoleApp3.ConsoleApp3 v3 = new ConsoleApp3.ConsoleApp3();
+            v3.Execute();
+
             int value1 = 0, value2 = 0;
             string chain;
             Console.WriteLine("Give me the first value:");

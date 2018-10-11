@@ -52,7 +52,6 @@
     <Compile Include="ConsoleApp8\clsClientsWithContact.cs" />
     <Compile Include="ConsoleApp8\clsFiles.cs" />
     <Compile Include="ConsoleApp8\clsImpression.cs" />
-    <Compile Include="ConsoleApp8\intExits.cs" />
     <Compile Include="ConsoleApp8\Program.cs" />
     <Compile Include="ConsoleApp7\clsAbsClients.cs" />
     <Compile Include="ConsoleApp7\clsAddresses.cs" />
@@ -60,7 +59,6 @@
     <Compile Include="ConsoleApp7\clsClientsWithContact.cs" />
     <Compile Include="ConsoleApp7\clsFiles.cs" />
     <Compile Include="ConsoleApp7\clsImpression.cs" />
-    <Compile Include="ConsoleApp7\intExits.cs" />
     <Compile Include="ConsoleApp7\Program.cs" />
     <Compile Include="ConsoleApp6\ClsClients.cs" />
     <Compile Include="ConsoleApp6\ClsSalesClients.cs" />

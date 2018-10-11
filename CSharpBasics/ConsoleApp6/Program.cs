@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace CSharpBasics.ConsoleApp6
 {
-    class Program
+    public class ConsoleApp6 : Project6<string, bool>
     {
         static void Main(string[] args)
         {
+
+            ConsoleApp6.ConsoleApp6 v6 = new ConsoleApp6.ConsoleApp6();
+            v6.Execute();
+
             ClsSalesClients Client;
             Client = new ClsSalesClients();
             Client.ClientId = 123;

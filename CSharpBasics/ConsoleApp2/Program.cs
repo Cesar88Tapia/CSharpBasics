@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace CSharpBasics.ConsoleApp2
 {
-    class Program
+    public class ConsoleApp2 : IntroCs<int, decimal, bool, string>
     {
         static void Main(string[] args)
         {
+
+            ConsoleApp2.ConsoleApp2 v2 = new ConsoleApp2.ConsoleApp2();
+            v2.Execute();
+
             int i = 10;
             decimal x = 12.2m;
             bool flag = true;
